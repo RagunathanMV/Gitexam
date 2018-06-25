@@ -12,6 +12,7 @@ ECHO GIT STATUS
 git status
 ECHO GIT COMMIT -M"FIRST COMMIT"
 git commit -m"first commit"
+
 ECHO GIT LOG
 git log
 sleep 3s
@@ -23,4 +24,5 @@ echo git checkout second
 git checkout second
 echo git branch
 git branch
-git add code.txt
+sleep 5s
+cd Shell2
