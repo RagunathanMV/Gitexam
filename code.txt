@@ -1,0 +1,11 @@
+git init
+git ls-files
+git status
+git commit -m"try commit"
+git log
+cat code.txt.txt
+git branch script4
+git checkout script3
+>file1
+git add file1
+git commit -m"file1 commit"
