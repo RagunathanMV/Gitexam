@@ -1,11 +1,19 @@
+
+ECHO GIT INIT
 git init
-git ls-files
+ECHO GIT CONFIG --GLOBAL USER.NAME RAGU
+git config --global user.name Ragu
+ECHO GIT CONFIG --GLOBAL USER.EMAIL RAGU@GMAIL.COM
+git config --global user.email ragu@gmail.com
+
+ECHO GIT CHECKOUT MASTER
+git checkout master
+ECHO GIT STATUS
 git status
-git commit -m"try commit"
+ECHO GIT COMMIT -M"FIRST COMMIT"
+git commit -m"first commit"
+ECHO GIT LOG
 git log
-cat code.txt.txt
-git branch script4
-git checkout script3
->file1
-git add file1
-git commit -m"file1 commit"
+sleep 5s
+
+
